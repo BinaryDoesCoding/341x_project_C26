@@ -1,0 +1,42 @@
+{
+  "model_file": "model.tflite",
+  "model_size_mb": 0.43706512451171875,
+  "eval_mode": "manifest:test_public",
+  "device": {
+    "platform": "Linux-6.12.47+rpt-rpi-v8-aarch64-with-glibc2.41",
+    "python": "3.11.14",
+    "machine": "aarch64",
+    "cpu_governor": "ondemand"
+  },
+  "timestamp": "Tue Mar  3 22:20:01 2026",
+  "accuracy": 0.8286808976464148,
+  "correct": 9084,
+  "total": 10962,
+  "latency_total_ms": {
+    "mean": 3.177236692265396,
+    "p50": 3.181596,
+    "p90": 3.2209001,
+    "p99": 3.33634082,
+    "min": 2.995478,
+    "max": 7.453165
+  },
+  "latency_preprocess_ms": {
+    "mean": 1.1195687897727273,
+    "p50": 1.115714,
+    "p90": 1.1684151,
+    "p99": 1.2386359299999994
+  },
+  "latency_infer_ms": {
+    "mean": 2.0576679024926685,
+    "p50": 2.066401,
+    "p90": 2.0946453999999997,
+    "p99": 2.1758663199999995
+  },
+  "peak_rss_mb": 52.421875,
+  "threads": 1,
+  "warmup_images": 50,
+  "rss_sample_every": 10,
+  "macs_m": 7.489664,
+  "macs_source": "metadata file (model.json)",
+  "score": 0.9290273876064462
+}
